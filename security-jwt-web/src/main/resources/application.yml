@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: platform-web
+
+app:
+  name: platform-web
+jwt:
+  header: Authorization
+  expires_in: 300 # 5 minutes
+  mobile_expires_in: 600 # 10 minutes
+  secret: queenvictoria

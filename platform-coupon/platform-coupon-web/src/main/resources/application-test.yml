@@ -1,0 +1,15 @@
+server:
+  port: 20005
+
+spring:
+  dubbo:
+          application:
+              name: consumer
+          registry:
+              address: zookeeper://10.3.5.45:7766
+          scan: com.jzt.platform.coupon.service
+          server: true
+
+
+logging:
+  file: proxy.api.log

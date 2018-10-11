@@ -1,0 +1,15 @@
+server:
+  port: 20001
+
+logging:
+  file: E://logs/api.log
+
+spring:
+  dubbo:
+          application:
+              name: consumer
+          registry:
+              address: zookeeper://127.0.0.1:2181
+          scan: com.jzt.wechat.all.wechat.coupon.service
+          server: true
+

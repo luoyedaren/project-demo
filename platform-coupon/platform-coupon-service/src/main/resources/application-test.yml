@@ -1,0 +1,39 @@
+spring:
+    datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        password: c7Hj9wJ7-21g2-1Ye8
+        url: jdbc:mysql://10.3.5.45:6666/jzt_coupon?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false
+        username: user_wechat
+        type: com.alibaba.druid.pool.DruidDataSource
+        initialSize: 1
+        minIdle: 3
+        maxActive: 20
+        maxWait: 60000
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 30000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxPoolPreparedStatementPerConnectionSize: 20
+        filters: stat,wall,slf4j
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+        useGlobalDataSourceStat: true
+    dubbo:
+        application:
+            name: provider
+            registries:
+                timeout: 30000
+        protocol:
+            name: dubbo
+            port: 20080
+        registry:
+            address: zookeeper://10.3.5.45:7766
+        scan: com.jzt.platform.coupon.service
+        server: true
+logging:
+  file: dubbo.api.log
+  # 打印sql
+  level:
+     com.jzt.platform.coupon.service.mapper : debug
