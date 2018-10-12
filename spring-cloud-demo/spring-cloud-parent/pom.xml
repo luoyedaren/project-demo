@@ -69,6 +69,7 @@
         <module>cloud-server-two</module>
         <module>cloud-consumer-one</module>
         <module>cloud-config-git</module>
+        <module>cloud-config-read-client</module>
     </modules>
 
 </project>
