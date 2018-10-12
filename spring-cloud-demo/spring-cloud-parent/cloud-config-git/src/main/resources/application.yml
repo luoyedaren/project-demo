@@ -11,3 +11,8 @@ spring:
           search-paths: spring-cloud-demo/spring-cloud-parent/config-repo
           username: 455191843@qq.com
           password: mike2008
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/

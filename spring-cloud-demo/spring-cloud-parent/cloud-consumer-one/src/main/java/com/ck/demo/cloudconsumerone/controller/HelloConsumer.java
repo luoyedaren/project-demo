@@ -18,8 +18,11 @@ public class HelloConsumer {
 	@Autowired
 	HelloRemote helloRemote;
 
+
 	@RequestMapping("/hello/{name}")
 	public String index(@PathVariable("name") String name) {
 		return helloRemote.hello(name);
 	}
+
+
 }
