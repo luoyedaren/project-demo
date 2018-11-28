@@ -1,0 +1,6 @@
+spring:
+  data:
+    #ElasticSearch的连接地址
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9300

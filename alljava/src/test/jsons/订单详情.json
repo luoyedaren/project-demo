@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "msg": "mock",
+  "data": {
+    "orderInfo": {
+      "balancePayPrice": 0.0,
+      "createAt": 0,
+      "custId": 0,
+      "directPayPrice": 0.0,
+      "invoiceAddress": "",
+      "invoiceBank": "",
+      "invoiceBankno": "",
+      "invoiceCompany": "",
+      "invoiceNo": "",
+      "invoiceTel": "",
+      "invoiceType": "",
+      "isInvoice": "",
+      "isOnlinePay": 0,
+      "linkAddress": "",
+      "linkMan": "",
+      "linkTel": "",
+      "notes": "",
+      "orderId": 0,
+      "orderStatus": 0,
+      "payStatus": 0,
+      "payType": "0",
+      "siteId": 0,
+      "storeId": 0,
+      "totalPrice": 0.0,
+      "updateAt": 0,
+      "userAgentId": 0,
+      "yedkl": 0.0
+    },
+    "orderGoodsList": {
+      "goods": {
+      },
+      "pagination": {
+        "page": 1,
+        "size": 1,
+        "total": 1
+      }
+    },
+    "orderLog": {
+    }
+  }
+}
