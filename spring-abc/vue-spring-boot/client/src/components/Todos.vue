@@ -175,7 +175,7 @@
                 this.visibility = vis
             },
 
-            completeTodo(todo) {
+            completeTodo: function(todo) {
                 api.updateForId(todo.id, todo.title, todo.completed).then((response) => {
                     this.$log.info("Item updated:", response.data);
                 }).catch((error) => {
