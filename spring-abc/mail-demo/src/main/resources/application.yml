@@ -1,0 +1,15 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    username: luoyedaren@gmail.com
+    password: qazwsx1235789
+    protocol: smtp
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.port: 587
+    properties.mail.display.sendmail: Javen
+    properties.mail.display.sendname: Spring Boot Guide Email
+    properties.mail.smtp.starttls.enable: true
+#    properties.mail.smtp.starttls.required: true
+#    properties.mail.smtp.ssl.enable: true
+#    from: luoyedaren@gmail.com
+#    default-encoding: utf-8
