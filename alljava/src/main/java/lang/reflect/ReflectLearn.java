@@ -1,5 +1,7 @@
 package lang.reflect;
 
+import domain.Cat;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -11,7 +13,7 @@ import java.util.Arrays;
  * nickName louyedaren
  */
 public class ReflectLearn {
-	public static final String className = "lang.reflect.Cat";
+	public static final String className = "domain.Cat";
 
 	public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
 //		反射
