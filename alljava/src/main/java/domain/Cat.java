@@ -1,6 +1,8 @@
 package domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
@@ -10,6 +12,8 @@ import lombok.experimental.Accessors;
  * nickName louyedaren
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Accessors(fluent = true)
 public class Cat {
 
