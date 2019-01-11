@@ -1,8 +1,6 @@
 package platform.spring.aop;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 /**
@@ -18,5 +16,9 @@ public class GamerOne {
 	public void perform() {
 		log.info("-------------gameOne go");
 
+	}
+
+	public void playNum(int number){
+		log.info("-------------------number:"+number);
 	}
 }

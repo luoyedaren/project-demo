@@ -9,6 +9,8 @@ import org.springframework.test.annotation.Repeat;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.Random;
+
 /**
  * project alljava
  *
@@ -26,5 +28,17 @@ public class GamerOneTest{
 //	@Repeat(10)
 	public void platform() {
 		gamerOne.perform();
+	}
+
+	@Test
+	@Repeat(10)
+	public void play(){
+		gamerOne.playNum(new Random().nextInt(10));
+	}
+
+	@Test
+	public void addNew() {
+		NewFunction gamerOne = (NewFunction) this.gamerOne;
+		gamerOne.addNew();
 	}
 }
