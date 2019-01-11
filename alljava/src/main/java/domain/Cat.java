@@ -14,7 +14,7 @@ import lombok.experimental.Accessors;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Accessors(fluent = true)
+@Accessors(fluent= true)
 public class Cat {
 
 	private String name;
