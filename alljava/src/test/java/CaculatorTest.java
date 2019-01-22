@@ -13,6 +13,6 @@ public class CaculatorTest {
 
 	@Test
 	public void testAdd() {
-		Assert.assertEquals(Caculator.add(1,1),2);
+		assertEquals(Caculator.add(1,1),2);
 	}
 }

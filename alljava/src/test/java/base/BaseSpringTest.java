@@ -1,7 +1,8 @@
+package base;
+
+import lombok.extern.slf4j.Slf4j;
 import org.junit.runner.RunWith;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import soundsystem.CDConfig;
 
 /**
  * project alljava
@@ -11,4 +12,8 @@ import soundsystem.CDConfig;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 public class BaseSpringTest {
+	public BaseSpringTest() {
+		System.out.println();
+		System.out.println("------------------- test start ----------------");
+	}
 }
