@@ -4,41 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34fd3e13-60af-4d5d-89b2-f191a77542c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lang/HashTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lang/basic/One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lang/collections/BlockingQueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lang/functional/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Day1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Day2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="34fd3e13-60af-4d5d-89b2-f191a77542c7" name="Default" comment="线程操作">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Day2g1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lang/collections/ArrayDequeLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lang/collections/ArrayDequeLearn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/4.10.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/4.10.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/gradle-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle-demo/src/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/Day2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../itchat4j" beforeDir="false" afterPath="$PROJECT_DIR$/../itchat4j" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +73,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="copyright" />
@@ -122,36 +91,22 @@
       <recent name="" />
       <recent name="inter" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="soundsystem" />
       <recent name="platform.spring.di" />
       <recent name="inter.impl.domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\project\labs\alljava\src\test\jsons" />
       <recent name="C:\Users\Administrator\project\labs\alljava\src\test\java\inter\impl\domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day2">
+  <component name="RunManager" selected="Application.Day2g1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="ArrayDequeLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.collections.ArrayDequeLearn" />
-      <module name="alljava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lang.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="BlockingQueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lang.collections.BlockingQueTest" />
@@ -195,6 +150,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day2g1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Day2g1" />
+      <module name="alljava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lang.HashTest" />
       <module name="alljava" />
@@ -223,19 +192,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayDequeLearn" />
       <item itemvalue="Application.Day1" />
       <item itemvalue="Application.HashTest" />
       <item itemvalue="Application.BlockingQueTest" />
       <item itemvalue="Application.Day2" />
+      <item itemvalue="Application.Day2g1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day2g1" />
         <item itemvalue="Application.Day2" />
         <item itemvalue="Application.BlockingQueTest" />
         <item itemvalue="Application.HashTest" />
         <item itemvalue="Application.Day1" />
-        <item itemvalue="Application.ArrayDequeLearn" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +256,7 @@
       <workItem from="1595571829526" duration="336000" />
       <workItem from="1607995368223" duration="4882000" />
       <workItem from="1608002205469" duration="7168000" />
-      <workItem from="1608081624586" duration="6281000" />
+      <workItem from="1608081624586" duration="11244000" />
     </task>
     <task id="LOCAL-00001" summary="java温故">
       <created>1545701888568</created>
@@ -352,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548231869569</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="线程操作">
+      <created>1608089493024</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608089493024</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -410,22 +386,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="线程操作" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1559" height="275" key="GridCell.Tab.0.bottom" timestamp="1608089443237">
+    <state x="280" y="4" key="#Project_Structure" timestamp="1608107508842">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1559" height="275" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1608089443237" />
-    <state width="1559" height="275" key="GridCell.Tab.0.center" timestamp="1608089443237">
+    <state x="280" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1608107508842" />
+    <state x="552" y="296" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608108038175">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1559" height="275" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1608089443237" />
-    <state width="1559" height="275" key="GridCell.Tab.0.left" timestamp="1608089443237">
+    <state x="552" y="296" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1608108038175" />
+    <state x="335" y="0" key="CommitChangelistDialog2" timestamp="1608089577329">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1559" height="275" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1608089443237" />
-    <state width="1559" height="275" key="GridCell.Tab.0.right" timestamp="1608089443237">
+    <state x="335" y="0" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1608089577329" />
+    <state x="578" y="171" key="FileChooserDialogImpl" timestamp="1608108352239">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1559" height="275" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1608089443237" />
+    <state x="578" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1608108352239" />
+    <state width="1559" height="112" key="GridCell.Tab.0.bottom" timestamp="1608098552571">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1559" height="112" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1608098552571" />
+    <state width="1559" height="112" key="GridCell.Tab.0.center" timestamp="1608098552571">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1559" height="112" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1608098552571" />
+    <state width="1559" height="112" key="GridCell.Tab.0.left" timestamp="1608098552571">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1559" height="112" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1608098552571" />
+    <state width="1559" height="112" key="GridCell.Tab.0.right" timestamp="1608098552571">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1559" height="112" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1608098552571" />
     <state width="1559" height="243" key="GridCell.Tab.1.bottom" timestamp="1608082729159">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -450,6 +442,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="498" height="445" key="SwitcherDM/0.0.1600.860@0.0.1600.860" timestamp="1608004000971" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1608089579320">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1608089579320" />
+    <state x="525" y="163" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1608089654593">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="525" y="163" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1600.860@0.0.1600.860" timestamp="1608089654593" />
     <state x="530" y="191" key="extract.method.dialog" timestamp="1608089227686">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -458,6 +458,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="497" y="170" width="606" height="520" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1608014592752" />
+    <state x="79" y="50" key="new project wizard" timestamp="1608108358546">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="79" y="50" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1608108358546" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1608015828398">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -1,7 +1,6 @@
 package leetcode;
 
-import java.util.Scanner;
-import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -11,6 +10,8 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  * @author chenghai on 2020/12/16 0016. - 星期三
  * nickName louyedaren
+ * 三个线程执行三个方法
+ * 保证顺序执行 方法1 方法2 方法3
  */
 public class Day2 {
 
@@ -28,7 +29,7 @@ public class Day2 {
 
 
 
-        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(5, 100, 1, TimeUnit.HOURS, new LinkedBlockingDeque<>(100));
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(5, 100, 1, TimeUnit.HOURS, new LinkedBlockingQueue<>(100));
         for (int i = 0; i < 1000; i++) {
             start(foo, a, b, c, threadPoolExecutor);
             TimeUnit.SECONDS.sleep(3);
