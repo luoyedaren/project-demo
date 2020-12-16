@@ -1,6 +1,7 @@
 package lang.collections;
 
 import java.util.ArrayDeque;
+import java.util.concurrent.LinkedTransferQueue;
 
 /**
  * project alljava
@@ -27,5 +28,9 @@ public class ArrayDequeLearn {
 
 		System.out.println(arrayDeque);
 
+	}
+
+	public void t1(){
+		LinkedTransferQueue linkedTransferQueue = new LinkedTransferQueue();
 	}
 }
